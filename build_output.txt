@@ -1,0 +1,74 @@
+
+> ammazingrose@0.1.0 build
+> next build
+
+▲ Next.js 16.1.1 (Turbopack)
+- Environments: .env
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 28.4s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/42) ...
+  Generating static pages using 11 workers (10/42) 
+  Generating static pages using 11 workers (20/42) 
+  Generating static pages using 11 workers (31/42) 
+✓ Generating static pages using 11 workers (42/42) in 1099.0ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about-us
+├ ○ /admin/active-cases
+├ ○ /admin/dashboard
+├ ○ /admin/patient-management
+├ ○ /admin/pending-requests
+├ ○ /admin/reporting-logs
+├ ○ /admin/service
+├ ○ /admin/staff-management
+├ ○ /admin/user-list
+├ ƒ /admin/user-list/[id]
+├ ○ /aiinsight
+├ ƒ /api/auth/[...nextauth]
+├ ○ /career
+├ ○ /caring
+├ ○ /contact
+├ ○ /electronic-health-record
+├ ○ /faq
+├ ○ /forgot-password
+├ ○ /login
+├ ○ /mobile-clinic
+├ ○ /patient/billing-payments
+├ ○ /patient/dashboard
+├ ○ /patient/health-insights
+├ ○ /patient/help
+├ ○ /patient/medical-records
+├ ƒ /patient/medical-records/[id]
+├ ○ /patient/medications
+├ ○ /patient/profile
+├ ○ /patient/request-care
+├ ○ /pricing
+├ ○ /privacy-policy
+├ ○ /register
+├ ○ /register/staff
+├ ○ /reset-password
+├ ○ /rouitine-care
+├ ƒ /shared/care-history/[id]
+├ ƒ /shared/edit-profile/[id]
+├ ƒ /shared/medical-records/[id]
+├ ƒ /shared/user-profile/[id]
+├ ○ /staff/dashboard
+├ ○ /staff/my-assignments
+├ ○ /talemadicine
+├ ○ /terms-of-service
+├ ○ /urgent-care
+└ ○ /verify-otp
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
